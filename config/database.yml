@@ -20,8 +20,10 @@ default: &default
   host: localhost
   port: 5432
   database: hello_rails_react
-  username: <%= ENV["DATABASE_USERNAME"] %>
-  password: <%= ENV["DATABASE_PASSWORD"] %>
+  username: birhanu
+  password: 1317
+  # username: <%= ENV["DATABASE_USERNAME"] %>
+  # password: <%= ENV["DATABASE_PASSWORD"] %>
 
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
